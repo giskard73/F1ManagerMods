@@ -40,6 +40,7 @@ It is possible to enable metallic finish by editing the `Livery_materialmask.uas
 1. Create a mask for the parts of the livery you want to be metallic, then add black fill layer on the bottom. All parts masked in black will be metallic. You can then adjust the roughness using the `Livery_masks.tga` file if you want a smoother or rougher metallic finish.
 
 You can find Livery mask files here:
+
 `F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Textures`
 
 2. Pack your texture files in Unreal Engine and copy the newly cooked .uasset files into your 'ToPack' directory for that team. 
