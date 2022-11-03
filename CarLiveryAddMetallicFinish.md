@@ -19,8 +19,12 @@ Here's a list of teams that have the necessary files:
 - AstonMartin
 - Williams
 
-1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`. These files are stored in this directory.
+The Material Instance files are stored in this directory.
   
 `/F1Manager22/Content/Cars/RaceTeam/<SourceTeam>/Materials`
+
+1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`, using either Fmodel or Carefreeduck's unpacker. 
   
-2. Open the newly extracted file using **Asset Editor**. Navigate to the 'Header List' section, and edit all entries with the <SourceTeam> name into your desired team, for example, McLaren. 
+2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, and edit all entries with the `<SourceTeam>` name into your desired team, for example, McLaren. 
+
+It would be easier to edit these using Notepad++, you can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
