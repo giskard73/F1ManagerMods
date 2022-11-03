@@ -15,8 +15,12 @@ This is a guide on how to enable and add metallic finish to cars that only have 
 First off we need a copy of the Material Instance file from a team that has metallic layers enabled.
 
 Here's a list of teams that have the necessary files:
-Mercedes
-AstonMartin
-Williams
+- Mercedes
+- AstonMartin
+- Williams
 
-1. Unpack the file, **MI_<SourceTeam>_MaterialMask.uasset**, from the "/F1Manager22/Content/Cars/RaceTeam/<SourceTeam>/Materials" directory
+1. Unpack the file, **MI_<SourceTeam>_MaterialMask.uasset**. These files are stored in this directory.
+  
+`/F1Manager22/Content/Cars/RaceTeam/<SourceTeam>/Materials`
+  
+2. Open the newly extracted file using **Asset Editor**. Navigate to the 'Header List' section, and edit all entries with the <SourceTeam> name into your desired team, for example, McLaren. 
