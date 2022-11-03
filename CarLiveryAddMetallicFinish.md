@@ -14,7 +14,7 @@ This is a guide on how to enable and add metallic finish to cars that only have 
 
 First off we need a copy of the Material Instance file from a team that has metallic layers enabled.
 
-Here's a list of teams that have the necessary files:
+Here's a list of teams that has the necessary files:
 - Mercedes
 - AstonMartin
 - Williams
@@ -25,9 +25,9 @@ The Material Instance files are stored in this directory.
 
 1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`, using either Fmodel or Carefreeduck's unpacker. 
   
-2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, and edit all entries with the `<SourceTeam>` name into your desired team, for example, McLaren. 
+2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, and edit all entries with the `<SourceTeam>` name into your desired team, for example, from Williams into McLaren. 
 
-It would be easier to edit these using Notepad++, you can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
+It would be easier to edit these using Notepad++, as can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
 
 3. Once you're finished replacing the team names, save your newly edited .uasset file into your 'ToPack' folder with the directory, 
 
