@@ -2,11 +2,11 @@
 This is a guide on how to enable and add metallic finish to cars that only have matte or paint finish in F1 Manager 2022.
 
 ## Requirements
-- FModel or Carefreeduck's [unpacker](https://github.com/carefreeduck/F1ManagerModding/blob/main/Packing.md)
-- [umodel](https://www.gildor.org/en/projects/umodel)
-- [UE Asset Editor](https://github.com/kaiheilos/Utilities)
+- FModel or Carefreeduck's [unpacker](https://github.com/carefreeduck/F1ManagerModding/blob/main/Packing.md) to unpack the necessary game files
+- [umodel](https://www.gildor.org/en/projects/umodel) to extract files from .uasset format
+- [UE Asset Editor](https://github.com/kaiheilos/Utilities) to edit .uasset files
 - Notepad++ or similar
-- Photoshop or Krita, for exporting TGA files
+- Photoshop or Krita for editing and exporting TGA files
 - Unreal Engine 4.27
 - Albomis' [packer](https://github.com/Ablomis/mod91/blob/main/Repacking.md)
 
@@ -28,3 +28,26 @@ The Material Instance files are stored in this directory.
 2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, and edit all entries with the `<SourceTeam>` name into your desired team, for example, McLaren. 
 
 It would be easier to edit these using Notepad++, you can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
+
+3. Once you're finished replacing the team names, save your newly edited .uasset file into your 'ToPack' folder with the directory, 
+
+`ToPack/F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Materials/MI_<TargetTeam>_MaterialMask.uasset`
+
+## Masking out the metallic parts of the livery
+
+It is possible to enable metallic finish by editing the `Livery_materialmask.uasset` file. 
+
+1. Create a mask for the parts of the livery you want to be metallic, then add black fill layer on the bottom. All parts masked in black will be metallic. You can then adjust the roughness using the `Livery_masks.tga` file if you want a smoother or rougher metallic finish.
+
+You can find Livery mask files here:
+`F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Textures`
+
+2. Pack your texture files in Unreal Engine and copy the newly cooked .uasset files into your 'ToPack' directory for that team. 
+
+`ToPack/F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Textures`
+
+3. Repack your .uasset files into .pak using the repacker from Albomis
+
+## Closing Notes
+
+Mercedes has its own Material Instance file which is a bit different to the Aston and Williams. It has fresnel variables built-in which is absent in the other two Material Instance files. Try to experiment with it to see which metallic finish you prefer. 
