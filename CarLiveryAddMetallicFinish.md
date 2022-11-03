@@ -25,7 +25,7 @@ The Material Instance files are stored in this directory.
 
 1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`, using either Fmodel or Carefreeduck's unpacker. 
   
-2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, and edit all entries with the `<SourceTeam>` name into your desired team, for example, from Williams into McLaren. 
+2. Open the newly extracted file using Asset Editor. And navigate to the 'Header List' section, then edit all entries with the `<SourceTeam>` name into your desired team, for example, from Williams into McLaren. 
 
 It would be easier to edit these using Notepad++, as can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
 
