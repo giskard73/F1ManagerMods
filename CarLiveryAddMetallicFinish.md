@@ -8,7 +8,7 @@ This is a guide on how to enable and add metallic finish to cars that only have 
 - Notepad++ or similar
 - Photoshop or Krita for editing and exporting TGA files
 - Unreal Engine 4.27
-- Albomis' [packer](https://github.com/Ablomis/mod91/blob/main/Repacking.md)
+- Ablomis' [packer](https://github.com/Ablomis/mod91/blob/main/Repacking.md)
 
 ## Editing the Material Instance file
 
@@ -47,7 +47,7 @@ You can find Livery mask files here:
 
 `ToPack/F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Textures`
 
-3. Repack your .uasset files into .pak using the repacker from Albomis
+3. Repack your .uasset files into .pak using the repacker from Ablomis
 
 ## Closing Notes
 
