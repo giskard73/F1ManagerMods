@@ -19,7 +19,7 @@ Here's a list of teams that have the necessary files:
 - AstonMartin
 - Williams
 
-1. Unpack the file, **MI_<SourceTeam>_MaterialMask.uasset**. These files are stored in this directory.
+1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`. These files are stored in this directory.
   
 `/F1Manager22/Content/Cars/RaceTeam/<SourceTeam>/Materials`
   
