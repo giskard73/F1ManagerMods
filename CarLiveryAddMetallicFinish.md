@@ -2,6 +2,10 @@
 This is a guide on how to enable and add metallic finish to cars that only have matte or paint finish in F1 Manager 2022.
 
 ## Requirements
-- [UE asset Editor](https://github.com/kaiheilos/Utilities)
 - FModel or Carefreeduck's [unpacker](https://github.com/carefreeduck/F1ManagerModding/blob/main/Packing.md)
-
+- [umodel](https://www.gildor.org/en/projects/umodel)
+- [UE Asset Editor](https://github.com/kaiheilos/Utilities)
+- Notepad++ or similar
+- Photoshop or Krita, for exporting TGA files
+- Unreal Engine 4.27
+- Albomis' [packer](https://github.com/Ablomis/mod91/blob/main/Repacking.md)
