@@ -42,7 +42,7 @@ It would be easier to edit these using Notepad++, as can easily replace the name
 
 It is possible to enable metallic finish by editing the `Livery_materialmask.uasset` file. 
 
-1. Create a mask for the parts of the livery you don't want to be metallic, then add black fill layer on the bottom. All parts masked in black will be paint finish. You can then adjust the Green channel for roughness using the `Livery_materialmask.tga` file if you want a smoother or rougher metallic finish.
+1. Create a mask for the parts of the livery you don't want to be metallic, then add black fill layer on the bottom. All parts masked in black will be paint finish. You can then adjust the Green channel for roughness using the `Livery_mask.tga` file if you want a smoother or rougher metallic finish.
 
 ![image](https://user-images.githubusercontent.com/49501681/204140846-a3bf1cfd-141b-4d0a-9d2b-6ed332566318.png)
 
