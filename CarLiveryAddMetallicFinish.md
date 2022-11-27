@@ -44,6 +44,8 @@ It is possible to enable metallic finish by editing the `Livery_materialmask.uas
 
 1. Create a mask for the parts of the livery you don't want to be metallic, then add black fill layer on the bottom. All parts masked in black will be paint finish. You can then adjust the Green channel for roughness using the `Livery_materialmask.tga` file if you want a smoother or rougher metallic finish.
 
+![image](https://user-images.githubusercontent.com/49501681/204140846-a3bf1cfd-141b-4d0a-9d2b-6ed332566318.png)
+
 You can find Livery mask files here:
 
 `F1Manager22/Content/Cars/RaceTeam/<TargetTeam>/Textures`
