@@ -15,8 +15,8 @@ This is a guide on how to enable and add metallic finish to cars that only have 
 First off we need a copy of the Material Instance file from a team that has metallic layers enabled.
 
 Here's a list of teams that has the necessary files:
-- Mercedes
 - AstonMartin
+- Mercedes
 - Williams
 
 Here are combinations which have been tested & working:
