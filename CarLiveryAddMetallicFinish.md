@@ -19,6 +19,11 @@ Here's a list of teams that has the necessary files:
 - AstonMartin
 - Williams
 
+Here are combinations which have been tested & working:
+- AstonMartin, works for Ferrari & AlfaRomeo
+- Mercedes, works for Haas & Alpine
+- Williams, works for McLaren
+
 The Material Instance files are stored in this directory.
   
 `/F1Manager22/Content/Cars/RaceTeam/<SourceTeam>/Materials`
@@ -26,11 +31,6 @@ The Material Instance files are stored in this directory.
 1. Unpack the file, `MI_<SourceTeam>_MaterialMask.uasset`, using either Fmodel or Carefreeduck's unpacker. 
   
 2. Open the newly extracted file using Asset Editor. Navigate to the 'Header List' section, then edit all entries with the `<SourceTeam>` name into your desired team, for example, from Williams to McLaren. If a Material Instance file doesn't work for that team, you need to try with the other MI files.
-
-Here are combinations that are tested working:
-- Mercedes, works for Haas 
-- AstonMartin, works for Ferrari & AlfaRomeo
-- Williams, works for McLaren
 
 It would be easier to edit these using Notepad++, as can easily replace the names and it would retain formatting. Paste everything back into AssetEditor once done. 
 
@@ -42,7 +42,7 @@ It would be easier to edit these using Notepad++, as can easily replace the name
 
 It is possible to enable metallic finish by editing the `Livery_materialmask.uasset` file. 
 
-1. Create a mask for the parts of the livery you don't want to be metallic, then add black fill layer on the bottom. All parts masked in black will be paint finish. You can then adjust the Green layer for roughness using the `Livery_materialmask.tga` file if you want a smoother or rougher metallic finish.
+1. Create a mask for the parts of the livery you don't want to be metallic, then add black fill layer on the bottom. All parts masked in black will be paint finish. You can then adjust the Green channel for roughness using the `Livery_materialmask.tga` file if you want a smoother or rougher metallic finish.
 
 You can find Livery mask files here:
 
